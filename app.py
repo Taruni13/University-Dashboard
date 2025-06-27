@@ -12,7 +12,7 @@ import faicons as fa
 from helpers import load_data, get_student_count, calculate_average_grade
 
 # --- Set your OpenAI API key (replace with your own key) ---
-openai.api_key = "YOUR_OPENAI_API_KEY"  # Make sure to set your OpenAI API key here
+openai.api_key = "Add your key here"  # Make sure to set your OpenAI API key here
 
 # --- Mapping for class codes to full names ---
 CLASS_MAP = {
@@ -76,13 +76,13 @@ app_ui = ui.page_sidebar(
             "Total students",  # Box label
             ui.output_ui("total_students"),  # Output value
             showcase=fa.icon_svg("user-graduate", fill="cornflowerblue"),  # Blue icon
-            style="min-height:220px; height:220px; width:100%;"  # Box style
+            style="min-height:180px; height:180px; width:100%;"  # Box style
         ),
         ui.value_box(
             "Average GPA",
             ui.output_ui("average_gpa"),
             showcase=fa.icon_svg("graduation-cap", fill="orange"),  # Orange icon
-            style="min-height:220px; height:220px; width:100%;"
+            style="min-height:180px; height:180px; width:100%;"
         ),
         ui.card(
             ui.card_header(
@@ -90,7 +90,7 @@ app_ui = ui.page_sidebar(
                 " Student Summary"
             ),
             ui.output_ui("student_ai_summary"),  # AI summary output
-            style="min-height:120px; width:100%;"
+            style="min-height:180px; width:100%;"
         ),
         col_widths=[3, 3, 6]
     ),
@@ -104,7 +104,7 @@ app_ui = ui.page_sidebar(
             ),
             ui.output_ui("student_table"),  # Student table output
             full_screen=True,
-            style="height:300px; min-height:300px;"
+            style="height:220px; min-height:220px;"
         ),
         ui.card(
             ui.card_header(
@@ -114,7 +114,7 @@ app_ui = ui.page_sidebar(
                 )
             ),
             ui.input_text("student_id", "Enter a valid PACIFIC_ID", placeholder="Type or paste student ID..."),  # Search input
-            style="min-height:100px; width:100%;"
+            style="min-height:220px; width:100%;"
         ),
         ui.card(
             ui.card_header(
@@ -123,7 +123,7 @@ app_ui = ui.page_sidebar(
             ),
             ui.output_ui("student_detail"),  # Student details output
             full_screen=True,
-            style="height:300px; min-height:300px;"
+            style="height:220px; min-height:220px;"
         ),
         col_widths=[4, 2, 6]
     ),
@@ -135,18 +135,18 @@ app_ui = ui.page_sidebar(
                 fa.icon_svg("chart-column", fill="cornflowerblue"),  # Blue chart-column icon
                 " GPA Distribution"
             ),
-            ui.output_plot("gpa_hist", width="100%", height="500px"),  # GPA histogram output
+            ui.output_plot("gpa_hist", width="100%", height="300px"),  # GPA histogram output
             full_screen=True,
-            style="height:400px; min-height:400px;"
+            style="height:300px; min-height:300px;"
         ),
         ui.card(
             ui.card_header(
                 fa.icon_svg("chart-bar", fill="cornflowerblue"),  # Blue chart-bar icon
                 " Student Count by Class"
             ),
-            ui.output_plot("student_count_bar", width="100%", height="500px"),  # Student count bar output
+            ui.output_plot("student_count_bar", width="100%", height="300px"),  # Student count bar output
             full_screen=True,
-            style="height:400px; min-height:400px;"
+            style="height:300px; min-height:300px;"
         ),
         col_widths=[6, 6]
     ),
