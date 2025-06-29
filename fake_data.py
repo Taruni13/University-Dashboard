@@ -16,7 +16,7 @@ fake = Faker()
 df = pd.read_csv("data.csv", nrows=0)
 columns = df.columns.tolist()
 
-num_rows = 100  # Number of fake rows to generate
+num_rows = 1000  # Number of fake rows to generate
 
 # ------------------------------------------------------
 # Function: fake_value
