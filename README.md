@@ -1,7 +1,7 @@
 # Welcome to University Dashboard !!!
 
 <p align="center">
-  <img src="dashboard.png" alt="University Dashboard home" width="800"/>
+  <img src="./dashboard.png" alt="University Dashboard home" width="800"/>
 </p>
 
 Welcome to the University Dashboard repository!
