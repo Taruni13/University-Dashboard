@@ -1,4 +1,10 @@
-# University Dashboard - Py/Shiny
+# Welcome to University Dashboard !!!
+
+<p align="center">
+  <img src="dashboard.png" alt="University Dashboard home" width="800"/>
+</p>
+
+Welcome to the University Dashboard repository!
 
 An interactive Shiny for Python application to explore and summarize student data.
 
