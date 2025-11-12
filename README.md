@@ -1,8 +1,6 @@
 # Welcome to University Dashboard !!!
 
-<p align="center">
-  <img src="https://drive.google.com/file/d/1xhdZdgQBzX9QD4-AU9C17nbwgIueL8vs/view?usp=sharing" alt="University Dashboard screenshot" width="800"/>
-</p>
+[Link to Dashboard](https://drive.google.com/file/d/1xhdZdgQBzX9QD4-AU9C17nbwgIueL8vs/view?usp=sharing)
 
 Welcome to the University Dashboard repository!
 
@@ -22,7 +20,7 @@ An interactive Shiny for Python application to explore and summarize student dat
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/<your-username>/University-Dashboard.git
+   git clone https://github.com/<taruni13>/University-Dashboard.git
    cd University-Dashboard
    ```
 
