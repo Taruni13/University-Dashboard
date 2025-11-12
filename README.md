@@ -1,7 +1,7 @@
 # Welcome to University Dashboard !!!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Taruni13/University-Dashboard/main/dashboard.png" alt="University Dashboard screenshot" width="800"/>
+  <img src="https://drive.google.com/file/d/1xhdZdgQBzX9QD4-AU9C17nbwgIueL8vs/view?usp=sharing" alt="University Dashboard screenshot" width="800"/>
 </p>
 
 Welcome to the University Dashboard repository!
